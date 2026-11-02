@@ -1,0 +1,41 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "email": "rahul@gmail.com",
+      "phone": "9876543210",
+      "age": 21,
+      "city": "Guntur",
+      "course": "Computer Science"
+    },
+    {
+      "id": "2",
+      "name": "Priya Reddy",
+      "email": "priya@gmail.com",
+      "phone": "9876543211",
+      "age": 20,
+      "city": "Vijayawada",
+      "course": "Information Technology"
+    },
+    {
+      "id": "3",
+      "name": "Arjun Kumar",
+      "email": "arjun@gmail.com",
+      "phone": "9876543212",
+      "age": 22,
+      "city": "Hyderabad",
+      "course": "Computer Science"
+    },
+    {
+      "name": "Sandhya Kattuboina",
+      "email": "sandhyakattuboina8@gmail.com",
+      "phone": "08328374586",
+      "age": 20,
+      "city": "-guntur",
+      "course": "cse",
+      "id": "kZ4Q9Zwjr9w"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

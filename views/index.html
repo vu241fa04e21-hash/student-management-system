@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <h1>Student Management System</h1>
+
+    <!-- Add Student -->
+    <a href="./add_student.html">Add Student</a>
+
+    <br><br>
+
+    <!-- Search -->
+    <label for="searchInput">Search by Name:</label>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Enter student name"
+    >
+
+    <br><br>
+
+    <!-- Course Filter -->
+    <label for="courseFilter">Filter by Course:</label>
+
+    <select id="courseFilter">
+
+        <option value="">All Courses</option>
+
+        <option value="Computer Science">
+            Computer Science
+        </option>
+
+        <option value="Information Technology">
+            Information Technology
+        </option>
+
+        <option value="cse">
+            cse
+        </option>
+
+    </select>
+
+    <br><br>
+
+    <!-- Student Table -->
+    <table border="1">
+
+        <thead>
+
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Course</th>
+                <th>Actions</th>
+            </tr>
+
+        </thead>
+
+        <tbody id="studentTable">
+
+            <!-- Student data will be loaded here by JavaScript -->
+
+        </tbody>
+
+    </table>
+
+
+    <!-- JavaScript -->
+    <script
+        type="module"
+        src="../js/main.js">
+    </script>
+
+</body>
+
+</html>
